@@ -8,7 +8,7 @@ public class FixCountPolicy implements DiscountPolicy{
     @Override
     public int discount(Member member, int prince) {
         if (member.getGrade() == Grade.VIP) {
-            return discountFixAmount
+            return discountFixAmount;
         } else{
             return 0;
         }
